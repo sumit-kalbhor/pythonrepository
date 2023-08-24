@@ -27,4 +27,8 @@ print("good morning".replace("morning", "afternoon"))
 print("Hello World".replace("l", "w"))
 print(len("Hello World"))
 
+# format() method
+name = input("Enter your name : ")
+age = input("Enter your age : ")
 
+print("My name is {} and my age is {}.".format(name, age))
