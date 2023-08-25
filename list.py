@@ -17,3 +17,18 @@ print('K' not in name)
 str_list = ["one", "two", "three"]
 print(str_list[1])
 
+# list slicing
+
+sliced = [1, 2, 3, 4, 5, 6]
+print(sliced[2:4])
+print(sliced[0:])
+
+
+# update a list using index numbers
+
+sliced[1] = 10
+sliced[2:4] = [11, 12]
+print(sliced)
+print(sliced[3])
+
+
