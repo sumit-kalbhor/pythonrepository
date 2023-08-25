@@ -14,3 +14,6 @@ print('S' in name)
 print('K' in name)
 print('K' not in name)
 
+str_list = ["one", "two", "three"]
+print(str_list[1])
+
