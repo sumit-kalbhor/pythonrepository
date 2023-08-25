@@ -31,4 +31,9 @@ sliced[2:4] = [11, 12]
 print(sliced)
 print(sliced[3])
 
+# create empty list 
+
+empty_list =[]
+print(empty_list)
+
 
