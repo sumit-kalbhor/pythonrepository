@@ -36,4 +36,40 @@ print(sliced[3])
 empty_list =[]
 print(empty_list)
 
+# del  : deletes item using index number
+
+colors = ["red", "green", "yellow", "orange", "white", "blue"]
+print(colors)
+del colors[0]
+print(colors)
+
+# remove() method : removes element using value
+
+colors.remove("green")
+print(colors)
+
+# append : append method is used to add elements in a list
+
+colors.append("red")
+colors.append("green")
+print(colors)
+
+# insert() method : inserts elements using index number
+
+colors.insert(0, "grey")
+print(colors)
+
+# sort : used to sort list
+
+colors.sort()
+print(colors)
+
+# reverse = True : write elements in a reverse order
+colors.sort(reverse=True)
+print(colors)
+
+# index() method to find out  index number of a value
+
+print(colors.index("green"))
+
 
