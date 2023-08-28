@@ -36,6 +36,13 @@ for i in range(1,11):
     sum += i
     print(sum)
 
+# while loop
+# print the numbers using while loop
+
+i = 0
+while i < 5:
+    i += 1
+    print(i)
 
 
 
