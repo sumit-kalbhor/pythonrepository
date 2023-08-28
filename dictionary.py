@@ -50,7 +50,9 @@ print(student)
 student.setdefault(4, "Sagar")
 print(student)
 
+# clear() to clear a dict
 
-
+student.clear()
+print(student)
 
 
